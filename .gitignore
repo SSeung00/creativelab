@@ -1,0 +1,23 @@
+# Local data, caches and Adobe-derived files (camera/lens profiles, presets) never leave the PC
+data/
+.env
+*.db
+*.db-wal
+*.db-shm
+
+__pycache__/
+.venv/
+.pytest_cache/
+.ruff_cache/
+_probe*.py
+
+node_modules/
+dist/
+dist-next/
+dist-old/
+
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
